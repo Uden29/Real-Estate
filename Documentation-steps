@@ -1,0 +1,34 @@
+npm i -D @types/node @types/uuid
+
+npx shadcn@latest init -d
+
+npx shadcn@latest add avatar badge button card checkbox command dialog dropdown-menu form input label navigation-menu radio-group select separator sheet sidebar skeleton slider sonner switch table tabs textarea tooltip
+
+npm i react-redux @reduxjs/toolkit dotenv --legacy-peer-deps
+
+npm i @fortawesome/fontawesome-svg-core @fortawesome/foree-brands-svg-icons @fortawesome/react-fontawesome --legacy-peer-deps
+
+npm i express body-parser cors dotenv helmet morgan jsonwebtoken multer uuid axios @terraformer/wkt @aws-sdk/client-s3 @aws-sdk/lib-storage
+
+npm i -D rimraf concurrently nodemon shx ts-node typescript @types/cors @types/morgan @types/node @types/jsonwebtoken @types/multer @types/terraformer__wkt @types/uuid
+
+npx tsc --init
+
+module:moduleResoultion: "nodenext"
+resolveJSONModule
+outDir: "./dist"
+
+compilerOptions: {
+    "include": ["src/**/*", "src/datat/**/*.json", "prisma/**/*"]
+}
+
+npm i prisma @prisma/client 
+
+npm run prisma:generate
+
+psql -U postgres -d postgres -W
+npm run seed
+
+npx prisma migrate resetNew Request
+
+npm i aws-amplify @aws-amplify/ui-react --legacy-peer-deps
